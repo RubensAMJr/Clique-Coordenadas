@@ -518,6 +518,8 @@ public class Apresentacao extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "Coordenadas invalidas");
         
         }else{
+            
+            
         btnClicar.setEnabled(true);
         //Pega os valores e cria uma coordenada e uma regiao
         String letra = "Regiao " + ctrl.getLetra();
